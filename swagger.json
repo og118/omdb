@@ -1,0 +1,17 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "This is an API documentation for og118's movie database. Listed are all the public endpoints and models that can be used to access the server",
+      "version": "1.0.0",
+      "title": "OMDB",
+      "contact": {
+        "email": "goa11@iitbbs.ac.in"
+      }
+    },
+    "host": "http://localhost:5000",
+    "basePath": "/v1",
+    "externalDocs": {
+      "description": "Find out more about Swagger",
+      "url": "http://swagger.io"
+    }
+  }

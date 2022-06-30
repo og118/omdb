@@ -1,0 +1,33 @@
+{
+  "name": "omdb",
+  "version": "1.0.0",
+  "description": "og118's movie database. A Movie library cum review platform with recommendations, discussion forums, guides and what not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/og118/omdb.git"
+  },
+  "author": "og118",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/og118/omdb/issues"
+  },
+  "homepage": "https://github.com/og118/omdb#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.4.1",
+    "swagger-ui-express": "^4.4.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  }
+}
