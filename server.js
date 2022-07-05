@@ -2,7 +2,7 @@ const dotenv = require("dotenv");
 const http = require("http");
 const app = require("./app");
 const mongoose = require("mongoose");
-const config = require("./app/utils/config");
+const config = require("./utils/config");
 
 const server = http.createServer(app);
 

@@ -7,7 +7,7 @@ const xss = require("xss-clean");
 const swaggerUi = require("swagger-ui-express");
 const swaggerDocument = require("./swagger.json");
 
-const appRouter = require("./app/routers/appRouter")
+const appRouter = require("./routers/appRouter")
 
 const app = express();
 
