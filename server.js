@@ -11,7 +11,6 @@ dotenv.config();
 console.log("Starting app..");
 console.log("Waiting for connection to MongoDB");
 
-console.log(config)
 mongoose
   .connect(config.MONGODB_URI)
   .then(() => {
@@ -22,6 +21,7 @@ mongoose
     });
   })
   .catch((e) => {
+    console.log(e.reason)
     console.log("Could not connect to MongoDB server! Shutting down...");
     process.exit(1);
   });
